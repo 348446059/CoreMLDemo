@@ -14,6 +14,8 @@
 		098D3D181FCBF8A300FEAC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098D3D171FCBF8A300FEAC47 /* Assets.xcassets */; };
 		098D3D1B1FCBF8A300FEAC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098D3D191FCBF8A300FEAC47 /* LaunchScreen.storyboard */; };
 		098D3D231FCBF8C100FEAC47 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 098D3D221FCBF8C100FEAC47 /* Resnet50.mlmodel */; };
+		098D3D271FCBF95B00FEAC47 /* ObjectRecongationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D3D251FCBF95B00FEAC47 /* ObjectRecongationController.swift */; };
+		098D3D281FCBF95B00FEAC47 /* ObjectRecongationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 098D3D261FCBF95B00FEAC47 /* ObjectRecongationController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		098D3D1A1FCBF8A300FEAC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		098D3D1C1FCBF8A300FEAC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		098D3D221FCBF8C100FEAC47 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		098D3D251FCBF95B00FEAC47 /* ObjectRecongationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRecongationController.swift; sourceTree = "<group>"; };
+		098D3D261FCBF95B00FEAC47 /* ObjectRecongationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObjectRecongationController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		098D3D0D1FCBF8A300FEAC47 /* CoreMLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				098D3D241FCBF93B00FEAC47 /* 物体识别 */,
 				098D3D0E1FCBF8A300FEAC47 /* AppDelegate.swift */,
 				098D3D101FCBF8A300FEAC47 /* art.scnassets */,
 				098D3D121FCBF8A300FEAC47 /* ViewController.swift */,
@@ -68,6 +73,15 @@
 				098D3D1C1FCBF8A300FEAC47 /* Info.plist */,
 			);
 			path = CoreMLDemo;
+			sourceTree = "<group>";
+		};
+		098D3D241FCBF93B00FEAC47 /* 物体识别 */ = {
+			isa = PBXGroup;
+			children = (
+				098D3D251FCBF95B00FEAC47 /* ObjectRecongationController.swift */,
+				098D3D261FCBF95B00FEAC47 /* ObjectRecongationController.xib */,
+			);
+			path = "物体识别";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +145,7 @@
 			files = (
 				098D3D111FCBF8A300FEAC47 /* art.scnassets in Resources */,
 				098D3D1B1FCBF8A300FEAC47 /* LaunchScreen.storyboard in Resources */,
+				098D3D281FCBF95B00FEAC47 /* ObjectRecongationController.xib in Resources */,
 				098D3D181FCBF8A300FEAC47 /* Assets.xcassets in Resources */,
 				098D3D161FCBF8A300FEAC47 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098D3D271FCBF95B00FEAC47 /* ObjectRecongationController.swift in Sources */,
 				098D3D131FCBF8A300FEAC47 /* ViewController.swift in Sources */,
 				098D3D231FCBF8C100FEAC47 /* Resnet50.mlmodel in Sources */,
 				098D3D0F1FCBF8A300FEAC47 /* AppDelegate.swift in Sources */,
